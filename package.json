@@ -1,0 +1,21 @@
+{
+  "name": "test-stripe",
+  "version": "0.0.1",
+  "description": "test stripe api",
+  "main": "app.js",
+  "author": "Luigi Frasca",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -r dotenv/config ./src/app.js dotenv_config_path=./env/.env"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "koa-body-parser": "^1.1.2",
+    "koa-router": "^9.4.0",
+    "nodemon": "^2.0.4",
+    "stripe": "^8.102.0"
+  }
+}
